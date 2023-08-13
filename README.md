@@ -1,18 +1,16 @@
-Проект представляет собой тест сайта https://shop.foodsoul.pro
-Тест автоматически:
--Открывает сайт
--Авторизуется
--Добавляет товар в корзину
--Фотографирует корзину перед оформлением заказа
+Проект "FoodSoul"
 
+Проект представляет собой тест сайта https://shop.foodsoul.pro. В ходе теста автоматически выполняются следующие действия:
+
+Открытие сайта.
+Авторизация.
+Добавление товара в корзину.
+Фотографирование корзины перед оформлением заказа.
 Запуск проекта:
 
-1. git clone https://github.com/SuNseTgReeN/FoodSoul
-
-2. Создайте и настройте виртуальное окружение с помощью requirements.txt 
-   Я использовал Poetry:
-   - poetry init
-   - poetry install
-   - poetry shell
-
-3. Выполните команду python3 main_telegram.py для Linux, либо python main_telegram.py для Windows
+Склонируйте репозиторий с помощью команды: git clone https://github.com/SuNseTgReeN/FoodSoul.
+Создайте и настройте виртуальное окружение, используя файл requirements.txt. Для данного проекта использовался Poetry, поэтому выполните следующие команды:
+poetry init
+poetry install
+poetry shell
+Для запуска проекта на Linux выполните команду python3 main_telegram.py, на Windows - python main_telegram.py.
