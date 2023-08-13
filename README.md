@@ -7,7 +7,7 @@
 
 Запуск проекта:
 
-1. git clone
+1. git clone https://github.com/SuNseTgReeN/FoodSoul
 
 2. Создайте и настройте виртуальное окружение с помощью requirements.txt 
    Я использовал Poetry:
