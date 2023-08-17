@@ -44,10 +44,10 @@ try:
     # Капча
     while True:
         try:
-            WebDriverWait(driver, 10).until(EC.presence_of_element_located(
-                (By.XPATH, '//*[@title="recaptcha challenge expires in two minutes"]')))
+            WebDriverWait(driver, 7).until(EC.presence_of_element_located(
+                (By.XPATH, '/html/body/div[4]/div[2]/iframe')))
 
-            input('Если встречается капча, пройдите её, затем нажмите "Enter" ')
+            input('Встретилась капча, пройдите её, затем нажмите "Enter" ')
 
             # Нажать кнопку "telegram"
             telegram = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
@@ -59,6 +59,7 @@ try:
                                   "--uppercase.button--expanded")))
             telegram.click()
             print('Нажал "Telegram"')
+            break
 
         except Exception as ex:
             print('Капча не найдена')
