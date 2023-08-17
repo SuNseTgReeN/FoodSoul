@@ -16,4 +16,5 @@
 	 - ```poetry init```
 	 - ```poetry install```
 	 - ```poetry shell```
-3. Для запуска проекта на Linux выполните команду python3 main_telegram.py, на Windows - python main_telegram.py.
+3. Создайте директорию внутри проекта под названием image.
+4. Для запуска проекта на Linux выполните команду python3 main_telegram.py, на Windows - python main_telegram.py.
